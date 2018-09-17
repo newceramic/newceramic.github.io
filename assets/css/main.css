@@ -93,7 +93,8 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    top: 0;
+    top: -0;
+    background-color: rgba(255, 0, 0, 0);
 }
 
 article,
@@ -2468,8 +2469,8 @@ ul.social li a.fa-google-plus:hover {
     #banner {
         padding: 6em 0;
         margin: 3em 0 0 0;
-        background-image: url('PIC01.jpg');
-        background-size: cover;
+        background-image: url('file:///Users/yuribondarenko/Downloads/html5up-dopetrope%202/images/pic01.jpg');
+        background-size: contain;
         background-position: right center;
     }
 
@@ -2946,4 +2947,7 @@ ul.social li a.fa-google-plus:hover {
     #footer {
         padding: 40px 0 20px 0;
     }
+}
+
+transparent {
 }
