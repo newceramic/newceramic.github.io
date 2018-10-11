@@ -397,6 +397,7 @@ table {
 .row > .col-4 {
     width: 33.3333333333%;
     background-color: #e38335;
+    box-shadow: 49px 0px;
 }
 
 .row > .off-4 {
@@ -1741,7 +1742,7 @@ input[type="submit"].alt,
 input[type="reset"].alt,
 button.alt,
 .button.alt {
-    background: rgba(23, 15, 4, 0.66);
+    background: #7a7576;
 }
 
 input[type="button"].alt:hover,
@@ -2132,7 +2133,8 @@ ul.social li a.fa-google-plus:hover {
 /* Header */
 #header {
     position: relative;
-    background: rgba(255, 255, 255, 0);
+    background: #ffffff;
+    border-bottom: solid 1px #ccc;
     padding: 5em 0 4em 0;
     text-align: center;
 }
@@ -2283,6 +2285,7 @@ ul.social li a.fa-google-plus:hover {
 
 #intro h2 {
     font-size: 1.75em;
+    color: #ffffff;
 }
 
 #intro p {
@@ -2805,12 +2808,6 @@ ul.social li {
 
     header {
         margin: 0 0 1em 0;
-        display: grid;
-        grid-template-columns: 47fr 0fr 1fr;
-        grid-template-rows: 127px;
-        grid-auto-columns: 0px;
-        padding-left: -104px;
-        padding-right: 30px;
     }
 
     footer {
@@ -2959,24 +2956,6 @@ transparent {
 }
 
 logo {
-}
-
-@media (max-width:735px) {
-    logosmal {
-        left: 20px;
-        margin-left: 21px;
-        padding-left: 25px;
-        padding-bottom: 29px;
-        margin-bottom: 57px;
-    }
-}
-
-.class samll {
-}
-
-@media (max-width:735px) {
-    log {
-    }
 }
 }
 }

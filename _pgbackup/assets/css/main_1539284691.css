@@ -2132,7 +2132,8 @@ ul.social li a.fa-google-plus:hover {
 /* Header */
 #header {
     position: relative;
-    background: rgba(255, 255, 255, 0);
+    background: #ffffff;
+    border-bottom: solid 1px #ccc;
     padding: 5em 0 4em 0;
     text-align: center;
 }
