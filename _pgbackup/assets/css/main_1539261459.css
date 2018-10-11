@@ -171,11 +171,6 @@ html {
 *:before,
 *:after {
     box-sizing: inherit;
-    column-fill: auto;
-
-    /*
-	top: -12px
-*/
 }
 
 body {
@@ -260,7 +255,6 @@ h6 a {
 
 h2 {
     font-size: 1.5em;
-    top: 115px;
 }
 
 h3 {
@@ -396,8 +390,6 @@ table {
 
 .row > .col-4 {
     width: 33.3333333333%;
-    background-color: #e38335;
-    box-shadow: 49px 0px;
 }
 
 .row > .off-4 {
@@ -520,6 +512,7 @@ table {
 }
 
 .row {
+    margin-top: -50px;
 }
 
 .row > * {
@@ -1242,6 +1235,8 @@ table {
     }
 
     .row {
+        margin-top: -40px;
+        margin-left: -40px;
     }
 
     .row > * {
@@ -1621,6 +1616,7 @@ table thead {
 /* Section/Article */
 section,
 article {
+    margin-bottom: 2.5em;
 }
 
 section > :last-child,
@@ -1742,7 +1738,7 @@ input[type="submit"].alt,
 input[type="reset"].alt,
 button.alt,
 .button.alt {
-    background: #7a7576;
+    background: #252122;
 }
 
 input[type="button"].alt:hover,
@@ -2285,7 +2281,6 @@ ul.social li a.fa-google-plus:hover {
 
 #intro h2 {
     font-size: 1.75em;
-    color: #ffffff;
 }
 
 #intro p {

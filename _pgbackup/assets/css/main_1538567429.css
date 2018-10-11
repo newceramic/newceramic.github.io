@@ -87,15 +87,14 @@ time,
 mark,
 audio,
 video {
+    margin: 0px;
+    padding: 0;
     border: 0;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    top: -0;
     background-color: rgba(255, 0, 0, 0);
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 0;
-    padding-right: 0;
 }
 
 article,
@@ -171,11 +170,6 @@ html {
 *:before,
 *:after {
     box-sizing: inherit;
-    column-fill: auto;
-
-    /*
-	top: -12px
-*/
 }
 
 body {
@@ -260,7 +254,6 @@ h6 a {
 
 h2 {
     font-size: 1.5em;
-    top: 115px;
 }
 
 h3 {
@@ -396,8 +389,6 @@ table {
 
 .row > .col-4 {
     width: 33.3333333333%;
-    background-color: #e38335;
-    box-shadow: 49px 0px;
 }
 
 .row > .off-4 {
@@ -520,6 +511,8 @@ table {
 }
 
 .row {
+    margin-top: -50px;
+    margin-left: -50px;
 }
 
 .row > * {
@@ -760,6 +753,8 @@ table {
     }
 
     .row {
+        margin-top: -50px;
+        margin-left: -50px;
     }
 
     .row > * {
@@ -1001,6 +996,8 @@ table {
     }
 
     .row {
+        margin-top: -30px;
+        margin-left: -30px;
     }
 
     .row > * {
@@ -1242,6 +1239,8 @@ table {
     }
 
     .row {
+        margin-top: -40px;
+        margin-left: -40px;
     }
 
     .row > * {
@@ -1621,6 +1620,7 @@ table thead {
 /* Section/Article */
 section,
 article {
+    margin-bottom: 2.5em;
 }
 
 section > :last-child,
@@ -1742,7 +1742,7 @@ input[type="submit"].alt,
 input[type="reset"].alt,
 button.alt,
 .button.alt {
-    background: #7a7576;
+    background: #252122;
 }
 
 input[type="button"].alt:hover,
@@ -2245,6 +2245,7 @@ ul.social li a.fa-google-plus:hover {
     background-position: center center;
     background-size: auto 100%;
     background-repeat: no-repeat;
+    text-align: center;
     position: relative;
     padding: 8em 0;
     margin: 4em 0 0 0;
@@ -2285,7 +2286,6 @@ ul.social li a.fa-google-plus:hover {
 
 #intro h2 {
     font-size: 1.75em;
-    color: #ffffff;
 }
 
 #intro p {
@@ -2446,82 +2446,79 @@ ul.social li a.fa-google-plus:hover {
         font-size: 11pt;
     }
 
-    /* Section/Article*/
+    /* Section/Article */
+    header.major {
+        margin: 0.75em 0 2.5em 0;
+    }
+
+    header.major h2 {
+        padding: 0 1em 0 1em;
+    }
+
+    /* Social */
+    ul.social li {
+        margin: 0 0 0.25em 0.75em;
+    }
+
+    /* Header */
+    #header {
+        padding: 4em 0 3em 0;
+    }
+
+    /* Banner */
+    #banner {
+        padding: 6em 0;
+        margin: 3em 0 0 0;
+        background-image: url('file:///Users/yuribondarenko/Downloads/html5up-dopetrope%202/images/pic01.jpg');
+        background-size: contain;
+        background-position: right center;
+    }
+
+    /* Intro */
+    #intro {
+        padding: 0;
+    }
+
+    #intro section {
+        padding: 1em 2em;
+    }
+
+    #intro .middle:before {
+        left: -12px;
+    }
+
+    #intro .middle:after {
+        right: -12px;
+    }
+
+    /* Main */
+    #main {
+        padding: 30px 0;
+    }
+
+    /* Footer */
+    #footer {
+        padding: 3em 0;
+    }
+
+    #footer:before {
+        height: 2.5em;
+    }
+
+    #footer header {
+        margin: 0 0 1.5em 0;
+    }
+
+    #footer header h2 {
+        font-size: 1.25em;
+    }
+
+    /* Copyright */
+    #copyright {
+        margin: 0;
+    }
 }
 
-*/
-header.major {
-    margin: 0.75em 0 2.5em 0;
-}
-
-header.major h2 {
-    padding: 0 1em 0 1em;
-}
-
-/* Social */
-ul.social li {
-    margin: 0 0 0.25em 0.75em;
-}
-
-/* Header */
-#header {
-    padding: 4em 0 3em 0;
-}
-
-/* Banner */
-#banner {
-    padding: 6em 0;
-    margin: 3em 0 0 0;
-    background-image: url('file:///Users/yuribondarenko/Downloads/html5up-dopetrope%202/images/pic01.jpg');
-    background-size: contain;
-    background-position: right center;
-}
-
-/* Intro */
-#intro {
-    padding: 0;
-}
-
-#intro section {
-    padding: 1em 2em;
-}
-
-#intro .middle:before {
-    left: -12px;
-}
-
-#intro .middle:after {
-    right: -12px;
-}
-
-/* Main */
-#main {
-    padding: 30px 0;
-}
-
-/* Footer */
-#footer {
-    padding: 3em 0;
-}
-
-#footer:before {
-    height: 2.5em;
-}
-
-#footer header {
-    margin: 0 0 1.5em 0;
-}
-
-#footer header h2 {
-    font-size: 1.25em;
-}
-
-/* Copyright */
-#copyright {
-    margin: 0;
-}
-
-*/
 /* Medium */
 #navPanel,
 #titleBar {
@@ -2956,6 +2953,4 @@ transparent {
 }
 
 logo {
-}
-}
 }
