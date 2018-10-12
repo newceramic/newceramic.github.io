@@ -506,8 +506,6 @@
 
 .fa-play:before {
     content: "\f04b";
-    color: #ffffff;
-    background-color: rgba(189, 50, 50, 0.65);
 }
 
 .fa-pause:before {
